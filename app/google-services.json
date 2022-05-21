@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980951201433",
+    "project_id": "fanta-17386",
+    "storage_bucket": "fanta-17386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980951201433:android:5fbb58a917a5eba9aeaa08",
+        "android_client_info": {
+          "package_name": "com.example.fanta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980951201433-rur4o8t3of983v7ukjo8al41ssh3ebdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkvqR7_o66kT3ZHQIQpB8Z2Tc5YgvfLx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980951201433-rur4o8t3of983v7ukjo8al41ssh3ebdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
