@@ -68,19 +68,22 @@
             android:layout_height="wrap_content"
             android:text="@string/title"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:layout_margin="4dp" />
 
         <TextView
             android:id="@+id/descript"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:text="@string/description"
-            android:textColor="@color/colorBlack" />
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
 
         <ImageView
             android:id="@+id/pimagetv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="4dp"
             android:background="@color/colorWhite" />
 
         <LinearLayout
@@ -115,6 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:src="@drawable/edittext_round_shape"
             android:orientation="horizontal">
 
             <Button

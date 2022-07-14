@@ -278,10 +278,14 @@ class AddBlogsFragment : Fragment() {
             if (uriTask.isSuccessful) {
                 // if task is successful the update the data into firebase
                 val hashMap = HashMap<Any, String?>()
-                hashMap.put("uid", uid)
-                hashMap.put("uname", name)
-                hashMap.put("uemail", email)
-                hashMap.put("udp", dp)
+                //hashMap.put("uid", uid)
+                hashMap.put("uid", "xeGVKd41b4Ycxo6kCid8wDpzwBA3")
+                //hashMap.put("uname", name)
+                hashMap.put("uname", "susheel pal")
+                //hashMap.put("uemail", email)
+                hashMap.put("uemail", "susheelpal067@gmail.com")
+                //hashMap.put("udp", dp)
+                hashMap.put("udp", "https://firebasestorage.googleapis.com/v0/b/fanta-17386.appspot.com/o/Users_Profile_Cover_image%2Fimage_xeGVKd41b4Ycxo6kCid8wDpzwBA3?alt=media&token=c0eac5f5-dd31-4001-9f0c-ae659cf2d68b")
                 hashMap.put("title", titl)
                 hashMap.put("description", description)
                 hashMap.put("uimage", downloadUri)
